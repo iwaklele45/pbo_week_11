@@ -56,5 +56,15 @@ The program enforces the following requirements:
 - Peripherals are optional
 
 ## Personal Reflection
+Muhammad Rafi Putra Hidayat
+1. Momen "Aha!" Terbesar
+  Momen ini terjadi ketika saya bertahan, jadi ketika di beri masukkan oleh tim audit, saya langsung      bisa memberikan solusi buat masukkan itu.
+   
+2. Kelemahan Terbesar Saya/Tim
+  Kelemahan saya adalah manajemen waktu, misal karena keasikkan mendesain alur program tiba-tiba waktu    tinggal 50 menit, jadi untuk saya sendiri manajemen waktu adalah yang menjadi kelemahan saya.
+  
+3. Skill Baru Paling Berharga
+   Skill yang berharga bagi saya adalah bekerja sama dengan teman saya sebagai tim, harus saling           mempercayai, saling memberi masukkan dan mencari solusi ketika ada masalah. Jadi skill yang berharga    menurut saya adalah bisa bekerja sama sebagai TIM.
 
 
+Rensa Syamdia Naufal
