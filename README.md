@@ -58,13 +58,27 @@ The program enforces the following requirements:
 ## Personal Reflection
 Muhammad Rafi Putra Hidayat
 1. Momen "Aha!" Terbesar
-  Momen ini terjadi ketika saya bertahan, jadi ketika di beri masukkan oleh tim audit, saya langsung      bisa memberikan solusi buat masukkan itu.
+
+   Momen ini terjadi ketika saya bertahan, jadi ketika di beri masukkan oleh tim audit, saya langsung bisa memberikan solusi buat masukkan itu.
    
 2. Kelemahan Terbesar Saya/Tim
-  Kelemahan saya adalah manajemen waktu, misal karena keasikkan mendesain alur program tiba-tiba waktu    tinggal 50 menit, jadi untuk saya sendiri manajemen waktu adalah yang menjadi kelemahan saya.
+
+   Kelemahan saya adalah manajemen waktu, misal karena keasikkan mendesain alur program tiba-tiba waktu tinggal 50 menit, jadi untuk saya sendiri manajemen waktu adalah yang menjadi kelemahan saya.
   
 3. Skill Baru Paling Berharga
-   Skill yang berharga bagi saya adalah bekerja sama dengan teman saya sebagai tim, harus saling           mempercayai, saling memberi masukkan dan mencari solusi ketika ada masalah. Jadi skill yang berharga    menurut saya adalah bisa bekerja sama sebagai TIM.
+
+   Skill yang berharga bagi saya adalah bekerja sama dengan teman saya sebagai tim, harus saling mempercayai, saling memberi masukkan dan mencari solusi ketika ada masalah. Jadi skill yang berharga menurut saya adalah bisa bekerja sama sebagai TIM.
 
 
 Rensa Syamdia Naufal
+1. Momen "Aha!" Terbesar
+
+   Pada saat mendesign UML Class Diagram, pada saat itu saya menjadi ingin membuat Class Diagram yang simple dan mudah untuk dieskpansi nantinya. Sehingga saat terjadi penambahan class program masih dapat berjalan tanpa perlu melakukan perubahan.
+   
+2. Kelemahan Terbesar Saya/Tim
+
+     Kelemahan saya adalah terlalu perfeksionis, kelemahan saat ini sangat berdampak pada misi ini, dimana saya dan tim saya sering melakukan perubahan design dari Class Diagram dan alur program sehingga kami menghabiskan banyak waktu dengan progress yang berputar-putar.
+  
+3. Skill Baru Paling Berharga
+
+     Skill baru yang saya dapat hari ini adalah Teamwork, dikesempatan ini saya dapat lebih terbuka terhadap ide dan saran dari tim saya sehingga membuat saya memandang masalah dengan prespektif yang lebih luas. 
