@@ -54,3 +54,7 @@ The program enforces the following requirements:
 - Maximum 4 RAM sticks
 - Maximum 4 storage devices
 - Peripherals are optional
+
+## Personal Reflection
+
+
