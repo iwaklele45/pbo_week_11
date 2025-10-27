@@ -54,7 +54,7 @@ public class Main {
 
         int choice;
         do {
-            System.out.println("\n===== MENU PEMILIHAN KOMPONEN =====");
+            System.out.println("\n========= MENU PEMILIHAN KOMPONEN =========");
             System.out.println("1. Pilih Motherboard");
             System.out.println("2. Pilih CPU");
             System.out.println("3. Pilih RAM");
@@ -68,20 +68,27 @@ public class Main {
                 case 1:
                     if(installedMB == false) {
                         if (pilihKomponen("Motherboard", motherBoards, pc1, input)) installedMB = true;
+                    } else {
+                        System.out.println("Motherboard sudah terpasang!");
                     }
                     break;
                 case 2:
                     if (installedCPU == false) {
                         if (pilihKomponen("CPU", cpus, pc1, input) && installedCPU == false) installedCPU = true;
+                    } else {
+                        System.out.println("CPU sudah terpasang!");
                     }
                     break;
                 case 3:
                     if (installedRams < 4) {
                         if (pilihKomponen("RAM", rams, pc1, input)) installedRams++;
+                    } else {
+                        System.out.println("RAM sudah maksimal!");
                     }
                     break;
                 case 4:
-                    if(installedStorage == 1) {
+                    if(installedStorage == 4) {
+                        System.out.println("Storage sudah maksimal!");
                         break;
                     }
                     System.out.println("1. SSD");
@@ -112,10 +119,18 @@ public class Main {
                         pilihKomponen("Monitor", monitors, pc1, input);
                     break;
                 case 6:
-                    System.out.println("\n=== PC Anda ===");
+                    boolean valid = (!installedMB || !installedCPU || installedRams == 0);
+                    if (valid) {
+                        if (!installedMB) System.out.println("Motherboard belum terpasang!");
+                        if (!installedCPU) System.out.println("CPU belum terpasang!");
+                        if (installedRams == 0) System.out.println("RAM belum terpasang!");
+                        break;
+                    }
+                    System.out.println("\n================= PC Anda =================");
                     pc1.showComponents();
+                    System.out.println("-------------------------------------------");
                     pc1.getTotalHarga();
-                    System.out.println("Terima kasih telah merakit PC!");
+                    System.out.println("\nTerima kasih telah merakit PC!");
                     break;
                 default:
                     System.out.println("Pilihan tidak valid!");
@@ -129,7 +144,7 @@ public class Main {
     private static boolean pilihKomponen(String nama, Component[] list, PC pc, Scanner input) {
         System.out.println("\n-- Pilih " + nama + " --");
         for (int i = 0; i < list.length; i++) {
-            System.out.println((i + 1) + ". " + list[i].nama + " - Rp" + list[i].harga);
+            System.out.printf("%d. %-30s Rp%,10d%n", (i + 1), list[i].nama, list[i].harga);
         }
         System.out.print("Masukkan pilihan: ");
         int pilihan = input.nextInt();

@@ -8,7 +8,7 @@ public class Component {
     }
 
     public void showInfo() {
-        System.out.println(nama + " - Rp" + harga);
+        System.out.printf("%-30s Rp%,10d%n", nama, harga);
     }
 
     public int getHarga() {
